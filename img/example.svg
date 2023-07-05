@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"><text x="0" y="15" fill="black">Hi from Example SVG!</text></svg>
+
+<!-- To get the base64  -->
+<!-- base64 -i example.svg -->
+<!--
+     Token Uri should be in string, but we have svg img which is not string
+    so we have to convert this to a string
+ -->
+ <!-- data: image/svg+xml;base64, -->
+ <!-- add the above line to indicate the browser it is a svg image -->
+ <!-- PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj4KICAgIDx0ZXh0IHg9IjAiIHk9IjE1IiBmaWxsPSJibGFjayI+SGkgWnVyaWNoITwvdGV4dD4KPC9zdmc+Cgo8IS0tIGJhc2U2NCAtaSBleGFtcGxlLnN2ZzsgLS0+ -->
+
+ <!-- data: image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj4KICAgIDx0ZXh0IHg9IjAiIHk9IjE1IiBmaWxsPSJibGFjayI+SGkgWnVyaWNoITwvdGV4dD4KPC9zdmc+Cgo8IS0tIGJhc2U2NCAtaSBleGFtcGxlLnN2ZzsgLS0+ -->
